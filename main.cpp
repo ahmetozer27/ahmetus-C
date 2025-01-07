@@ -87,7 +87,7 @@ int ahmetus(int n){
 		list[i] = i + 1;
 	}	
 	
-	printf("> Ilk hayattaki eleman: %d\n",list[0]);
+	printf("> First person alive: %d\n",list[0]);
 	int i = 1;
 	while (1){
 		
@@ -113,7 +113,7 @@ int ahmetus(int n){
 			i = find_alive(list,n,i);
 			
 			
-			printf("> Sonraki hayatta kalan eleman: %d\n",list[i]);
+			printf("> Next person alive: %d\n",list[i]);
 		}
 		
 		// hayatta kalan insandan sonraki elemana fýrladýk
@@ -131,7 +131,11 @@ int ahmetus(int n){
 
 
 main(){
-		
-	printf("\n--------------------------------\n Son hayatta kalan eleman : %d",ahmetus(5));	
+	
+	int people = 1;
+	
+	printf("Please enter the number of people: ");
+	scanf("%d",&people);
+	printf("\n--------------------------------\n Last person alive: %d",ahmetus(people));	
 	
 }
