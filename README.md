@@ -62,9 +62,6 @@ Please enter the number of people: 5
 ## Contributing
 Feel free to fork this repository, submit issues, or create pull requests to enhance the program or fix bugs.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 This implementation was inspired by classic algorithmic problems and showcases the iterative approach to solving elimination puzzles.
 
